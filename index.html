@@ -4,9 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uladzislau Skalski</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="body">
+    <header class="header">
+        <nav class="nav_menu">
+            <ul class="nav_list">
+                <li class="nav_link"><a href="#contact"> Contact</a></li>
+                <li class="nav_link"><a href="#about_me">About me</a></li>
+                <li class="nav_link"><a href="#education">Education</a></li>
+                <li class="nav_link"><a href="#skills">Skills</a></li>
+                <li class="nav_link"><a href="#projects">Projects</a></li>
+                <li class="nav_link"><a href="#code">Code</a></li>
+            </ul>
+        </nav> 
+    </header>   
+    <main class="main_container">
+        <div class="left_side">
+            <div class="CV_photo">
+                <img src="IMG/Me.png" alt="My_CV_Photo">
+            </div>
+            <section class="contact" id="contact"> 
+                <h2 class="left_section_title">Contact</h2>
+                <ul class="contact_list">
+                    <li class="contact_item">Phone number: +48505055212</li>
+                    <li class="contact_item">E-mail: <a href="mailto:vlad.skalski.96@gmail.com">vlad.skalski.96@gmail.com</a></li>
+                    <li class="contact_item">Telegram: <a href="tg://resolve?domain=@VladSkyski">@VladSkyski</a></li>
+                    <li class="contact_item">Linkedin: <a href="https://www.linkedin.com/in/vlad-skalski">Vlad Skalski</a></li>
+                    <li class="contact_item">GitHub: <a href="https://github.com/VladSkij">VladSkij</a></li>
+                    <li class="contact_item">Discord: <a href="https://discordapp.com/users/VladSkij#9546/">VladSkij#9546</a></li>
+                    <li class="contact_item">Adress:
+                        <br>
+                        Warsaw, Poland
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="left_section_title">Education</h2>
+                <ul class="education_list">
+                    <li class="education_item">
+                        2014-2016
+                        <br>
+                        College of Business and Law
+                        <br>
+                        Economics Technician
+                    </li>
+                    <li class="education_item">2020-2021
+                        <br>
+                        Udemy courses
+                        <br>
+                        Front-End Developer
+                    </li>
+                    <li class="education_item">RSSchool
+                        <br>
+                        «JavaScript/Front-end. Stage 0»
+                    </li>
+                </ul>
+            </section>
+            <section class="skills" id="skills">
+                <h2  class="left_section_title">Skills</h2>
+                <ul class="skills_list">
+                    <li class="skills_item">English: B1</li>
+                    <li class="skills_item">Polish: B2</li>
+                    <li class="skills_item">HTML5</li>
+                    <li class="skills_item">CSS3</li>
+                    <li class="skills_item">Figma</li>
+                    <li class="skills_item">Adobe Photoshop</li>
+                    <li class="skills_item">jQuery</li>
+                    <li class="skills_item">Git&Github</li>
+                </ul>
+            </section>
+
+        </div>
+        <div class="right_side">
+            <div class="page_title">
+                <h1 class="main_title">Uladzislau Skalski</h1>
+                <p>Front-End developer</p>
+            </div>
+            <div class="about_me" id="about_me">
+                <h2 class="right_section_title">About me</h2>
+                <p>Programming is now my hobby, but I'm taking courses that will make programming my main job. My goal is to complete the courses well in order to become a qualified and valuable employee.
+                <br> From childhood I was interested in computer technologies, physics, modern technologies. I love taking things apart, fixing them when needed, learning how things work.</p>
+            </div>
+            <div class="projects" id="projects">
+                <h2 class="my_projects">Projects</h2>
+                <a class="project_link" href="https://vladskij.github.io/Thrivetalk/Thrivetalk.html?fbclid=IwAR0r9WjVMf6c4B8C0HCkED3KfjV-BwGO2Dga-f1f7hK09OqvWjZRf5Fzrnc">
+                <img src="IMG/Project.png" alt="my_project_img" class="my_project_img">
+                    <h3 class="project_title">Thrivetalk</h3>
+                    </a>
+                    <hr>
+                    <p class="technology">Technology:</p>
+                    <ul class="technology_list">
+                        <li class="technology_item">HTML</li>
+                        <li class="technology_item">CSS</li>
+                        <li class="technology_item">JS</li>
+                    </ul>
+            </div>
+            <div class="code" id="code">
+                <h2 class="mycode">Code</h2>
+                <div class="Code_example">
+            <pre><code>
+            $(function () {
+            $('.btn_menu').on('click', function () {
+            $('.menu_list').slideToggle();
+            });
+            });
+        </code></pre>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="footer_link" href="https://github.com/VladSkij"> <img src="IMG/Github.png" alt="Github">
+        My GitHub
+        </a>
+        <p>2022</p>
+        <a href="https://rs.school/js-stage0/" class="footer_link_rss">
+            <img src="https://petr9ra.github.io/rsschool-cv/img/rs_school_js.svg" alt="RSSchool">
+        </a>
+    </footer>
 </body>
 </html>
