@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    margin-bottom: -35px;
+}
+
+.head_container {  
+    background-image: url(/Travel/img/header\ background.png);
+    min-height:765px; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;  
+    
+}
+
+
+
+.header_top {
+display: flex;
+justify-content: start;
+background: rgba(242, 120, 92, 0.7);
+box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+height: 90px;
+}
+.logo {
+    padding-top: 25px;
+    padding-bottom: 34px;
+    padding-left: 120px;
+}
+.nav_menu {
+    display: block;
+    margin-left: 120px;
+    margin-right: auto;
+    
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    margin-top: 35px ;
+}
+
+.nav_list li+li{
+margin-left: 41px;
+}
+.nav_list li a{
+    text-decoration: none;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #fff;
+}
+.header_btn {
+    margin-right: 118px;
+    margin-top: 25px;
+    margin-bottom: 24px;
+
+}
+.login_btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 33px;
+}
+
+
+
+.preview{
+    max-width: 892px;
+    margin-left: 120px;
+  
+}
+.preview h1{
+    font-family: 'Aleo';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: white;
+    margin-bottom: 31px;
+}
+.preview p{
+    font-family: 'Aleo';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    font-style: italic;
+    margin-bottom: 46px;
+    
+}
+
+.Planing_form {
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+padding-top: 17px;
+padding-bottom: 18px;
+padding-left: 41px;
+box-sizing: border-box;
+}
+.search {
+outline: none;
+border: none;
+
+}
+
+.search input{
+
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
+border: none;
+letter-spacing: -1px;
+outline: none;
+width: 400px;
+
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #F2785C;
+    width: 100%;
+}
+input, textarea {
+    background: rgba(255, 255, 255,0);
+}
+.planning_button {
+    background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+border: none;
+padding: 14px 34px;
+margin-left: 202px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
